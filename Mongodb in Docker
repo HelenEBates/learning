@@ -1,0 +1,9 @@
+//use the Docker repository to find the official Docker image
+//pull it to your machine
+//start the container in detatched mode and map the ports
+//docker run -d -p 27017-27017:27017-27017 --name mongodbweds mongo:latest
+//go into the shell within the mongodb container
+//docker exec -it mongodbweds bash
+
+//start the db with the command mongo
+//create a new db use name-of-your-new-db
