@@ -7,3 +7,10 @@
 
 //start the db with the command mongo
 //create a new db use name-of-your-new-db
+
+Added some records into a new database called tips
+{ "_id" : ObjectId("5ddfb619382dbf95cc1a8857"), "name" : "waitressOne", "restaurant" : "HYPE", "table" : "table1" }
+{ "_id" : ObjectId("5ddfb634382dbf95cc1a8858"), "name" : "waitressTwo", "restaurant" : "HYPE", "table" : "table2" }
+{ "_id" : ObjectId("5ddfc5a2382dbf95cc1a8859"), "name" : "waitressThree", "restaurant" : "HYPE", "table" : "table3" }
+{ "_id" : ObjectId("5ddfc5a2382dbf95cc1a885a"), "name" : "waitressFour", "restaurant" : "HYPE", "table" : "table4" }
+{ "_id" : ObjectId("5ddfc5a2382dbf95cc1a885b"), "name" : "waitressFive", "restaurant" : "HYPE", "table" : "table5" }
