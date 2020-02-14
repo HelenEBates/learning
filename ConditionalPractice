@@ -1,0 +1,48 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// if statements test a  condition and takes action if the condition is true
+        int elephantWeight = 900;
+        int giraffeWeight = 120;
+        int pandaWeight = 200;
+        int gazelleWeight = 48;
+        int lion = 80;
+        int BridgeCapacity = 200;
+        boolean animalsCanPass;
+        boolean containsCarniviourous;
+        boolean takeBridge = true ;
+        int feed = 10;
+        int dailyFeed = 20;
+
+        if (elephantWeight <= 200) {
+            System.out.println("Elephant can go over the bridge");
+        }   else {
+            System.out.println("Elephant is too heavy to go over the bridge");
+        }
+
+        if (feed != dailyFeed) {
+                    if(feed > dailyFeed) {
+                        lion++;
+                        System.out.println("Animal is fed too much, Lion now weighs " + lion);
+                    } else if (feed < dailyFeed) {
+                        lion--;
+                        System.out.println("Animal is fed too little, Lion now weighs " + lion);
+                    } else {
+                            System.out.println("Correct feed given");
+                    }
+
+
+
+        }
+
+
+        if (gazelleWeight * 4 <= BridgeCapacity && elephantWeight <= BridgeCapacity) {
+            animalsCanPass = true;
+        } else
+            animalsCanPass = false;
+        System.out.println(animalsCanPass);
+    }
+
+}
