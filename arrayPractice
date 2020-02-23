@@ -1,0 +1,33 @@
+//reviewing arrays and for loops as I could use this to match best fitting brand to user size
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// an array is a group of related variables which share the same type
+
+        //create an array
+        String [] brands = {"Mango", "Silk Fred", "Next", "Zara", "New Look", "Coast"};
+        System.out.println(brands[1]);
+
+        //toCharArray takes a string and turns into an array of Chars
+        String blogText = "I’ve had so many messages on these chairs since two of them arrived at my new front door in December, and now the whole gang’s in it’s time to announce them. My dining chairs of dreams, based on the chic wishbone chair, are by Ønske.";
+        //array of type char
+        char[] characters = blogText.toCharArray();
+
+        //for loop loops through the characters array for the number of iterations it is less than the length of the charactes array
+        for (int index = 0; index < characters.length; index++) {
+            char current = characters[index];
+
+            // if the char at the current position is not equal to a space it is printed, else a - is printed.
+            if (current != ' ') {
+                System.out.print(current);
+            } else {
+                System.out.print('-');
+            }
+            //System.out.println();
+            System.out.println(characters.length);
+        }
+    }
+
+}
